@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF_8">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <title>E-commerce Tutorial</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+</head>
+
+<body>
+    <section id="header"> <!-- Header section -->
+        <a href="#"><img src="img/logo.png" class="logo"></a>
+
+        <div>
+            <ul id="navbar"> <!-- Navigation Bar -->
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="user"><a href="user.html"><i class="fad fa-user"></i></a></li>
+                <li id="lg-bag"><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section> 
+
+    <section id="pro-details" class="section-p1">
+        <div class="single-pro-image">
+            <img src="img/products/f1.jpg" id="mainImg" width="100%">
+
+            <div class="small-img-group">
+                <div class="small-img-col">
+                    <img src="img/products/f1.jpg" class="small-img" width="100%">
+                </div>
+                <div class="small-img-col">
+                    <img src="img/products/f2.jpg" class="small-img" width="100%">
+                </div>
+                <div class="small-img-col">
+                    <img src="img/products/f3.jpg" class="small-img" width="100%">
+                </div>
+                <div class="small-img-col">
+                    <img src="img/products/f4.jpg" class="small-img" width="100%">
+                </div>
+            </div>
+        </div>
+
+        <div class="single-pro-details">
+            <h6>Shop / T-Shirt</h6>
+            <h4>Men's Fashion T-Shirt</h4>
+            <h2>$119.00</h2>
+            <select>
+                <option style="text-align: center;">Select Size</option>
+                <option style="text-align: center;">- XS -</option>
+                <option style="text-align: center;">- S -</option>
+                <option style="text-align: center;">- M -</option>
+                <option style="text-align: center;">- XL -</option>
+                <option style="text-align: center;">- XXL -</option>
+            </select>
+            <input type="number" value="1" style="border: 1px solid #088178; border-radius: 5px;">
+            <button class="normal" style="border: 1px solid #088178;">Add to Cart</button>
+            <h4>Product Details</h4>
+            <span>The Gildan Ultra Cotton T-Shirt is made from a substantial 6.0 oz. per
+            sq. yd. fabric constructed from 100% cotton, this classic fit preshrunk jersey
+            knit provides unmatched comfort with each wear. Featuring a taped neck and 
+            shoulder, and a seamless double-needle collar, and available in a range of
+            colors, it offers it all in the ultimate head-turning package.</span>
+        </div>
+    </section>
+
+    <section id="product1" class="section-p1"> <!-- New Arrivals -->
+        <h2>Featured Products</h2>
+        <p>Summer Collection New Morden Design</p>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="img/products/n1.jpg">
+                <div class="description">
+                    <span>GUCCI</span>
+                    <h5>Cartoon Astronaut T-Shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$99</h4>
+                </div>
+                <a href="#"><i class="fal fa-heart heart"></i></a>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/n2.jpg">
+                <div class="description">
+                    <span>GUCCI</span>
+                    <h5>Cartoon Astronaut T-Shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$59</h4>
+                </div>
+                <a href="#"><i class="fal fa-heart heart"></i></a>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/n3.jpg">
+                <div class="description">
+                    <span>GUCCI</span>
+                    <h5>Cartoon Astronaut T-Shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$49</h4>
+                </div>
+                <a href="#"><i class="fal fa-heart heart"></i></a>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/n4.jpg">
+                <div class="description">
+                    <span>GUCCI</span>
+                    <h5>Cartoon Astronaut T-Shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$19</h4>
+                </div>
+                <a href="#"><i class="fal fa-heart heart"></i></a>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="newsletter" class="section-p1 section-m1"> <!-- News Letter -->
+        <div claass="newstext">
+            <h4>Sign Up For Newsletter</h4>
+            <p>Get E-mail updates about our latest shop and <span> Special offers.</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your E-mail adress">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+
+    <footer class="section-p1"> <!-- Footer -->
+        <div class="col">
+            <img class="logo" src="img/logo.png">
+            <h4>Contact</h4>
+            <div>
+                <li>
+                    <i class="fal fa-map-marked-alt"></i>
+                    <p>562 Wellington Road, Street 32, San Francisco</p>
+                </li>
+                <li>
+                    <i class="fal fa-envelope"></i>
+                    <p>contact.example@mail.ru</p>
+                </li>
+                <li>
+                    <i class="fal fa-phone-alt"></i>
+                    <p>+01 2222 36 / (+91) 01 2345 6789</p>
+                </li>
+                <li>
+                    <i class="fal fa-clock"></i>
+                    <p>Mon to Sat: 10:00 - 18:00</p>
+                </li>
+            </div>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <a href="https://www.instagram.com/farhad_ab22/" target="_blank"><i class="fab fa-instagram" style="color: #C13584;"></i></a>
+                    <a href="https://ru-ru.facebook.com/Cristiano" target="_blank"><i class="fab fa-facebook-f" style="color: #4267B2;"></i></a>
+                    <a href="https://twitter.com/Cristiano?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><i class="fab fa-twitter" style="color: #405DE6;"></i></a>
+                    <a href="https://www.pinterest.com/pin/347058715044252505/" target="_blank"><i class="fab fa-pinterest-p" style="color: #E60023;"></i></a>
+                    <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube" style="color: #FF0000;"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms and Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From Google Play or App Store</p>
+            <div class="row">
+                <a href="https://play.google.com/store/apps/details?id=com.oshirtshop.com.designer&hl=ru&gl=US" target="_blank"><img src="img/pay/play.jpg"></a>
+                <a href="https://play.google.com/store/apps/details?id=com.oshirtshop.com.designer&hl=ru&gl=US" target="_blank"><img src="img/pay/app.jpg"></a>
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="img/pay/pay.png">
+        </div>
+
+        <div class="copyright">
+            <p>© 2022 <strong>"Cara"</strong> - All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Js code for Images permutations -->
+    <script>
+        var mainImg = document.getElementById("mainImg");
+        var smallImg = document.getElementsByClassName("small-img");
+
+        smallImg[0].onclick = function() {
+            mainImg.src = smallImg[0].src;
+        }
+        smallImg[1].onclick = function() {
+            mainImg.src = smallImg[1].src;
+        }
+        smallImg[2].onclick = function() {
+            mainImg.src = smallImg[2].src;
+        }
+        smallImg[3].onclick = function() {
+            mainImg.src = smallImg[3].src;
+        }
+    </script>
+
+    <script src="script.js"></script>
+</body>
+
+
+
+
+
+
+
+
+
+
+</html>
